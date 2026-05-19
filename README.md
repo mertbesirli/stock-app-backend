@@ -32,7 +32,7 @@ Compensating Transaction (Rollback): If the stock-service fails to process the o
    To prevent race conditions during concurrent requests (e.g., rapid buy/sell orders), we implement database-level pessimistic locking via Hibernate, ensuring data integrity for sensitive financial balances.
 
 #### 3. Event-Driven Communication
-   Broker: Apache Kafka
+   Broker: Apache Kafka 
 
 Consistency: Eventual consistency achieved through asynchronous messaging.
 
