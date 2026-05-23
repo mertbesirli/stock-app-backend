@@ -63,17 +63,10 @@ Build and start each service in the order: midas-common (install) -> wallet-serv
 Test the Saga Flow:
 
 Success Scenario:
-POST /api/order with symbol AAPL.
+POST /api/wallet/order with symbol AAPL.
 
 Rollback Scenario (Simulated Failure):
-POST /api/order with symbol FAIL.
-
-## 📈 Roadmap (Next Steps)
-[ ] Market Data Integration: Real-time price streaming via WebSockets.
-
-[ ] API Gateway: Centralized authentication (JWT) and routing.
-
-[ ] Frontend Integration: React-based Trading Dashboard.
+POST /api/wallet/order with symbol FAIL.
 
 <!-- LICENSE -->
 ## License
